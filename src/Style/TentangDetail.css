@@ -1,0 +1,324 @@
+.card-background {
+  background-image: url(Image/BatikCream.jpg);
+  background-size: contain;
+  background-attachment: local;
+}
+
+.detail-tentangH2{
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.detail-tentangH2 h2{
+  color: #B43064;
+  text-align: center;
+  text-shadow: 1.5px 1.5px 3px rgba(0, 0, 0, 0.25);
+  font-size: 35px;
+  font-family: montserrat;
+  letter-spacing: 3px;
+  font-weight: 900;
+  margin: 0;
+  padding: 10px 20px;
+  background-color: #ffff;
+}
+
+.containerCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 500px;
+}
+
+.containerBiro {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  flex-direction: column;
+  text-align: center;
+}
+
+.react-card-front {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.react-card-back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.kartuTentang {
+  margin: 0 30px;
+  padding: 30px 0;
+  max-width: 300px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.kartuTentang img {
+  width: 300px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.sekre {
+  padding-top: 100px;
+}
+
+.bendahara {
+  padding-top: 100px;
+}
+
+@media screen and (max-width: 769px) {
+  .containerCard {
+    column-gap: 50px;
+  }
+
+  .detail-tentangH2 h2{
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 4px 8px;
+  }
+
+  
+  .bph {
+    column-gap: 10px;
+  }
+
+  .bph .kartuTentang {
+    max-width: 100px;
+    margin: 0 10px;
+    padding: 10px 0;
+  }
+
+  .bph .kartuTentang img {
+    max-width: 100px;
+  }
+
+  .kartuTentang {
+    margin: 0 15px;
+    padding: 15px 0;
+    max-width: 150px;
+  }
+
+  .kartuTentang img {
+    width: 150px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+
+  .sekre {
+    padding-top: 70px;
+  }
+
+  .bendahara {
+    padding-top: 70px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .containerCard {
+    column-gap: 20px;
+  }
+
+  .bph {
+    column-gap: 8px;
+    padding-bottom: 100px;
+  }
+
+  .detail-tentangH2 h2{
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 3px 6px;
+  }
+
+  .kartuTentang {
+    margin: 0 10px;
+    padding: 10px 0;
+    max-width: 87px;
+  }
+
+  .kartuTentang img {
+    width: 87px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+
+  .sekre {
+    padding-top: 50px;
+  }
+
+  .bendahara {
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .containerCard {
+    column-gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .bph {
+    column-gap: 8px;
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .containerCard {
+    column-gap: 50px;
+  }
+
+  .detail-tentangH2 h2{
+    font-size: 19px;
+    letter-spacing: 2px;
+    padding: 5px 10px;
+  }
+  .bph {
+    column-gap: 10px;
+  }
+
+  .bph .kartuTentang {
+    max-width: 150px;
+    margin: 0 10px;
+    padding: 10px 0;
+  }
+
+  .bph .kartuTentang img {
+    max-width: 150px;
+  }
+
+  .kartuTentang {
+    margin: 0 15px;
+    padding: 15px 0;
+    max-width: 200px;
+  }
+
+  .kartuTentang img {
+    width: 200px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+
+  .sekre {
+    padding-top: 80px;
+  }
+
+  .bendahara {
+    padding-top: 80px;
+  }
+}
+
+@media screen and (min-width: 920px) {
+  .containerCard {
+    column-gap: 70px;
+  }
+  .detail-tentangH2 h2{
+    font-size: 25px;
+    letter-spacing: 3px;
+    padding: 7px 14px;
+  }
+  .bph {
+    column-gap: 10px;
+  }
+
+  .bph .kartuTentang {
+    max-width: 200px;
+    margin: 0 12px;
+    padding: 12px 0;
+  }
+
+  .bph .kartuTentang img {
+    max-width: 200px;
+  }
+
+  .kartuTentang {
+    margin: 0 20px;
+    padding: 20px 0;
+    max-width: 250px;
+  }
+
+  .kartuTentang img {
+    width: 250px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+  }
+
+  .sekre {
+    padding-top: 90px;
+  }
+
+  .bendahara {
+    padding-top: 90px;
+  }
+}
+
+@media screen and (min-width: 1270px) {
+  .containerCard {
+    column-gap: 30px;
+  }
+
+  .detail-tentangH2 h2{
+    font-size: 35px;
+    letter-spacing: 3px;
+    padding: 10px 20px;
+  }
+
+  .bph {
+    column-gap: 10px;
+  }
+
+  .bph .kartuTentang {
+    max-width: 250px;
+    margin: 0 15px;
+    padding: 15px 0;
+  }
+
+  .bph .kartuTentang img {
+    max-width: 250px;
+  }
+
+  .kartuTentang {
+    margin: 0 30px;
+    padding: 30px 0;
+    max-width: 300px;
+  }
+
+  .kartuTentang img {
+    width: 300px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  }
+
+  .sekre {
+    padding-top: 100px;
+  }
+
+  .bendahara {
+    padding-top: 100px;
+  }
+}

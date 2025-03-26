@@ -1,0 +1,384 @@
+@font-face {
+  font-family: Poppins;
+  src: url("Fonts/Poppins/Poppins-SemiBold.ttf");
+}
+
+* {
+  font-family: Poppins;
+}
+.store-sopA {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  margin: 40px 80px 40px 80px;
+}
+
+.store-sopB {
+  background-color: #d2daff;
+  border-radius: 1.5em;
+  padding: 50px 20px 20px 20px;
+  margin: 0 60px;
+  position: relative;
+  -webkit-border-radius: 1.5em;
+  -moz-border-radius: 1.5em;
+  -ms-border-radius: 1.5em;
+  -o-border-radius: 1.5em;
+}
+
+.rincianSOP {
+  background-color: #645088;
+  color: #fff;
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  column-gap: 5px;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 1.8em;
+  -webkit-border-radius: 1.8em;
+  -moz-border-radius: 1.8em;
+  -ms-border-radius: 1.8em;
+  -o-border-radius: 1.8em;
+  max-width: 400px;
+}
+/* Rincian */
+.rincianSyarat li {
+  color: #645088;
+  list-style: disc;
+  margin: 0 10px;
+}
+.rincianSyarat a {
+  color: #4b08c7;
+  text-decoration: none;
+}
+
+.rincianBatas li {
+  color: #645088;
+  list-style: disc;
+  margin: 0 10px 0 30px;
+}
+
+.rincianAlurli {
+  color: #645088;
+  text-align: justify;
+}
+
+.store-sopA ul {
+  color: #645088;
+}
+/* Rincian */
+
+.store-sopC {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: 30px;
+  margin-right: 80px;
+  margin-top: 30px;
+}
+
+.store-sopC h3 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.store-sopC a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #645088;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  column-gap: 5px;
+  padding: 15px 30px 15px 20px;
+  text-decoration: none;
+  border-radius: 1.8em;
+  -webkit-border-radius: 1.8em;
+  -moz-border-radius: 1.8em;
+  -ms-border-radius: 1.8em;
+  -o-border-radius: 1.8em;
+  max-width: 400px;
+}
+
+@media screen and (max-width: 769px) {
+  .store-sopA {
+    row-gap: 10px;
+    margin: 20px 40px 20px 40px;
+  }
+
+  .store-sopB {
+    padding: 30px 20px 20px 20px;
+    margin: 0 60px;
+  }
+
+  .rincianSOP {
+    color: #fff;
+    left: -20px;
+    top: -20px;
+    column-gap: 5px;
+    padding: 10px 20px;
+    font-size: 13px;
+    max-width: 400px;
+  }
+  /* Rincian */
+  .store-sopB ul{
+    font-size: 12px;
+  }
+  .rincianSyarat li {
+    margin: 0 10px;
+    font-size: 10px;
+  }
+  .rincianSyarat ul {
+    font-size: 12px;
+  } 
+  .rincianBatas li {
+    margin: 0 10px 0 30px;
+    font-size: 10px;
+  }
+  .rincianBatas ul {
+    margin: 0 10px 0 30px;
+    font-size: 12px;
+  }
+  .rincianAlur li {
+    font-size: 10px;
+  }
+  .rincianAlur ul {
+    font-size: 12px;
+  }
+
+  /* Rincian */
+
+  .store-sopC {
+    column-gap: 30px;
+    margin-right: 80px;
+    margin-top: 30px;
+  }
+
+  .store-sopC h3 {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  .store-sopC a {
+    column-gap: 5px;
+    padding: 5px 15px 5px 12px;
+    font-size: 13px;
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .store-sopA {
+    row-gap: 10px;
+    margin: 15px 30px;
+  }
+
+  .store-sopB {
+    padding: 20px 10px 10px 10px;
+    margin: 0 30px;
+  }
+
+  .rincianSOP {
+    color: #fff;
+    left: -20px;
+    top: -15px;
+    column-gap: 5px;
+    padding: 8px 14px;
+    font-size: 9px;
+    max-width: 400px;
+  }
+  /* Rincian */
+  .store-sopB ul{
+    font-size: 9px;
+  }
+  .rincianSyarat li {
+    margin: 0 10px;
+    font-size: 8px;
+  }
+  .rincianSyarat ul {
+    font-size: 9px;
+  } 
+  .rincianBatas li {
+    margin: 0 10px 0 30px;
+    font-size: 8px;
+  }
+  .rincianBatas ul {
+    margin: 0 10px 0 30px;
+    font-size: 9px;
+  }
+  .rincianAlur li {
+    font-size: 8px;
+  }
+  .rincianAlur ul {
+    font-size: 9px;
+  }
+
+  /* Rincian */
+
+  .store-sopC {
+    column-gap: 30px;
+    margin-right: 40px;
+    margin-top: 15px;
+  }
+
+  .store-sopC h3 {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .store-sopC a {
+    column-gap: 5px;
+    padding: 5px 14px 5px 11px;
+    font-size: 10px;
+    max-width: 400px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .rincianSOP {
+    padding: 12px 16px;
+    font-size: 14px;
+    max-width: 400px;
+  }
+  
+  .store-sopB {
+    padding: 30px 20px 20px 20px;
+    margin: 0 30px;
+  }
+  .store-sopB ul{
+    font-size: 13px;
+  }
+  .rincianSyarat li {
+    margin: 0 10px;
+    font-size: 12px;
+  }
+  .rincianSyarat ul {
+    font-size: 13px;
+  } 
+  .rincianBatas li {
+    margin: 0 10px 0 30px;
+    font-size: 12px;
+  }
+  .rincianBatas ul {
+    margin: 0 10px 0 30px;
+    font-size: 13px;
+  }
+  .rincianAlur li {
+    font-size: 12px;
+  }
+  .rincianAlur ul {
+    font-size: 13px;
+  }
+  .store-sopC h3 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .store-sopC a {
+    column-gap: 5px;
+    padding: 8px 18px 8px 15px;
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 920px) {
+  .rincianSOP {
+    padding: 12px 16px;
+    font-size: 20px;
+    max-width: 400px;
+  }
+  .store-sopB ul{
+    font-size: 16px;
+  }
+  .store-sopB {
+    padding: 40px 25px 25px 25px;
+    margin: 0 30px;
+  }
+  .rincianSyarat li {
+    margin: 0 10px;
+    font-size: 15px;
+  }
+  .rincianSyarat ul {
+    font-size: 16px;
+  } 
+  .rincianBatas li {
+    margin: 0 10px 0 30px;
+    font-size: 15px;
+  }
+  .rincianBatas ul {
+    margin: 0 10px 0 30px;
+    font-size: 16px;
+  }
+  .rincianAlur li {
+    font-size: 15px;
+  }
+  .rincianAlur ul {
+    font-size: 16px;
+  }
+  .store-sopC h3 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .store-sopC a {
+    column-gap: 5px;
+    padding: 8px 18px 8px 15px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1270px) {
+  .rincianSOP {
+    padding: 12px 16px;
+    font-size: 23px;
+    max-width: 500px;
+  }
+  
+  .store-sopB {
+    padding: 50px 25px 25px 25px;
+    margin: 0 30px;
+  }
+  .store-sopB ul{
+    font-size: 20px;
+  }
+  .rincianSyarat li {
+    margin: 0 10px;
+    font-size: 20px;
+  }
+  .rincianSyarat ul {
+    font-size: 20px;
+  } 
+  .rincianBatas li {
+    margin: 0 10px 0 30px;
+    font-size: 20px;
+  }
+  .rincianBatas ul {
+    margin: 0 10px 0 30px;
+    font-size: 20px;
+  }
+  .rincianAlur li {
+    font-size: 20px;
+  }
+  .rincianAlur ul {
+    font-size: 20px;
+  }
+  .store-sopC h3 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .store-sopC a {
+    column-gap: 5px;
+    padding: 8px 18px 8px 15px;
+    font-size: 23px;
+  }
+}

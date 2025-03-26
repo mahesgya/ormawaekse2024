@@ -1,0 +1,259 @@
+font-face {
+  font-family: Poppins;
+  src: url("Fonts/Poppins/Poppins-Regular.ttf");
+}
+
+* {
+  font-family: Poppins;
+}
+
+.div-tentang {
+  background-image: url(Image/Background\ Pesawat.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 1450px;
+  width: 100%;
+}
+.layer0-tentang {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 5vh;
+}
+
+.pesawat {
+  width: 80vh;
+  height: 50vh;
+}
+
+.layer1-tentang {
+  padding: 0vh 5vh 5vh 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tentang-h2 {
+  margin: 0;
+  color: #fff;
+  text-align: center;
+  font-family: poppins;
+  padding-top: 4vh;
+  font-size: 45.502px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.tentang-h4 {
+  margin: 0;
+  color: #ed5565;
+  text-align: center;
+  font-family: poppins;
+  font-size: 25.502px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 769px) {
+  .div-tentang {
+    background-image: url(Image/Awan\ Fulll.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: local;
+    height: 100%;
+    width: 100%;
+  }
+  .layer0-tentang {
+    padding-top: 2vh;
+  }
+  .layer0-tentang img{
+    width: 282.8px;
+    height: 168.4px;
+  }
+  .layer1-tentang {
+    padding: 1vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }
+  .layer1-tentang img {
+    margin-bottom: 3.5vh;
+    padding: 0;
+    width: 142px;
+    height: 92.8px;
+  }
+  .tentang-h2 {
+    padding-top: 3vh;
+    font-size: 25px;
+  }
+  .tentang-h4 {
+    padding-top: 1vh;
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .div-tentang {
+    background-image: url(Image/Awan\ Fulll.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: local;
+    height: 100%;
+    width: 100%;
+  }
+  .layer0-tentang {
+    padding-top: 2vh;
+  }
+  .layer0-tentang img{
+    width: 282.8px;
+    height: 168.4;
+  }
+  .layer1-tentang {
+    padding: 1vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }
+  .layer1-tentang img {
+    margin-bottom: 4vh;
+    padding: 0;
+    height: 76px;
+    width: 121.4px;
+  }
+  .tentang-h2 {
+    padding-top: 3vh;
+    font-size: 17px;
+  }
+  .tentang-h4 {
+    padding-top: 1vh;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 769px) {
+  .div-tentang {
+    background-image: url(Image/Awan\ Fulll.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: local;
+    height: 100%;
+    width: 100%;
+  }
+  .layer0-tentang {
+    padding-top: 2vh;
+  }
+  .layer0-tentang img{
+    width: 282.8px;
+    height: 168.4px;
+  }
+  .layer1-tentang {
+    padding: 1vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }
+  .layer1-tentang img {
+    margin-bottom: 4vh;
+    padding: 0;
+    width: 170.67px;
+    height: 111.34px;
+  }
+  .tentang-h2 {
+    padding-top: 3vh;
+    font-size: 25px;
+  }
+  .tentang-h4 {
+    padding-top: 1vh;
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 920px) {
+  .div-tentang {
+    background-image: url(Image/Background\ Pesawat.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: local;
+    height: 100%;
+    width: 100%;
+  }
+  .layer0-tentang {
+    padding-top: 2vh;
+  }
+  .layer0-tentang img{
+    width: 543.84px;
+    height: 323.84px;
+  }
+  .layer1-tentang {
+    padding: 1vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }
+  .layer1-tentang img {
+    margin: 3.5vh 0;
+    padding: 0;
+    width: 213.34px;
+    height: 139px;
+  }
+  .tentang-h2 {
+    padding-top: 3vh;
+    font-size: 35px;
+  }
+  .tentang-h4 {
+    padding-top: 1vh;
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 1270px) {
+  .div-tentang {
+    background-image: url(Image/Background\ Pesawat.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: local;
+    height: 100%;
+    width: 100%;
+  }
+  .layer0-tentang {
+    padding-top: 2vh;
+  }
+  .layer0-tentang img{
+    width: 707px;
+    height: 421px;
+  }
+  .layer1-tentang {
+    padding: 1vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }
+  .layer1-tentang img {
+    margin: 3.5vh 0;
+    padding: 0;
+    width: 256px;
+    height: 167px;
+  }
+  .tentang-h2 {
+    padding-top: 3vh;
+    font-size: 35px;
+  }
+  .tentang-h4 {
+    padding-top: 1vh;
+    font-size: 28px;
+  }
+}

@@ -1,0 +1,365 @@
+@font-face {
+  font-family: Poppins;
+  src: url("Fonts/Poppins/Poppins-SemiBold.ttf");
+}
+
+* {
+  font-family: Poppins;
+}
+
+.store-Konveksi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.store-Konveksi h3 {
+  color: #fff;
+}
+
+.konveksi-h1 {
+  padding-top: 20px;
+}
+.store-Konveksi img {
+  width: 500px;
+}
+
+.pakaian-konveksi {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.pakaian-konveksi > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+  background-color: #645088;
+  padding: 20px;
+  min-height: 302px;
+  border-radius: 1.5em;
+  -webkit-border-radius: 1.5em;
+  -moz-border-radius: 1.5em;
+  -ms-border-radius: 1.5em;
+  -o-border-radius: 1.5em;
+}
+
+.merchandise-konveksi {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.merchandise-konveksi > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+  background-color: #d2daff;
+  padding: 20px;
+  min-height: 251px;
+  border-radius: 1.5em;
+  -webkit-border-radius: 1.5em;
+  -moz-border-radius: 1.5em;
+  -ms-border-radius: 1.5em;
+  -o-border-radius: 1.5em;
+}
+
+.konveksi-tumbler {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+  padding: 20px;
+  margin-top: 20px;
+  max-width: 540px;
+  min-height: 251px;
+  background-color: #d2daff;
+  border-radius: 1.5em;
+}
+
+@media screen and (max-width: 769px) {
+  .store-Konveksi h3 {
+    color: #fff;
+    font-size: 14px;
+  }
+  .konveksi-h1 {
+    padding-top: 10px;
+  }
+  .store-Konveksi img {
+    width: 200px;
+  }
+
+  .pakaian-konveksi {
+    column-gap: 15px;
+    row-gap: 15px;
+  }
+
+  .pakaian-konveksi > div {
+    row-gap: 5px;
+    padding: 10px;
+    min-height: 132px;
+    border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+  }
+
+  .merchandise-konveksi {
+    column-gap: 15px;
+    row-gap: 15px;
+  }
+
+  .merchandise-konveksi > div {
+    row-gap: 5px;
+    padding: 10px;
+    min-height: 111px;
+    border-radius: 1em;
+  }
+
+  .konveksi-tumbler {
+    row-gap: 5px;
+    padding: 10px;
+    margin: 20px 0;
+    max-width: 540px;
+    min-height: 111px;
+    border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .store-Konveksi h3 {
+    color: #fff;
+    font-size: 9px;
+  }
+  .konveksi-h1 {
+    padding-top: 5px;
+  }
+  .store-Konveksi img {
+    width: 130px;
+  }
+
+  .pakaian-konveksi {
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+
+  .pakaian-konveksi > div {
+    row-gap: 5px;
+    padding: 10px;
+    min-height: 95px;
+    border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+  }
+
+  .merchandise-konveksi {
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+
+  .merchandise-konveksi > div {
+    row-gap: 5px;
+    padding: 10px;
+    min-height: 79px;
+    border-radius: 1em;
+  }
+
+  .konveksi-tumbler {
+    row-gap: 5px;
+    padding: 10px;
+    margin: 20px 0;
+    max-width: 540px;
+    min-height: 79px;
+    border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .store-Konveksi h3 {
+    color: #fff;
+    font-size: 17px;
+  }
+  .konveksi-h1 {
+    padding-top: 10px;
+  }
+  .store-Konveksi img {
+    width: 300px;
+  }
+
+  .pakaian-konveksi {
+    column-gap: 18px;
+    row-gap: 19px;
+  }
+
+  .pakaian-konveksi > div {
+    row-gap: 10px;
+    padding: 15px;
+    min-height: 194px;
+    border-radius: 1em;
+  }
+
+  .merchandise-konveksi {
+    column-gap: 18px;
+    row-gap: 18px;
+  }
+
+  .merchandise-konveksi > div {
+    row-gap: 10px;
+    padding: 15px;
+    min-height: 163px;
+    border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+  }
+
+  .konveksi-tumbler {
+    row-gap: 10px;
+    padding: 15px;
+    margin: 20px 0;
+    max-width: 540px;
+    min-height: 163px;
+    border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+  }
+}
+
+@media screen and (min-width: 920px) {
+  .store-Konveksi h3 {
+    color: #fff;
+    font-size: 22px;
+  }
+  .konveksi-h1 {
+    padding-top: 10px;
+  }
+  .store-Konveksi img {
+    width: 400px;
+  }
+
+  .pakaian-konveksi {
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+
+  .pakaian-konveksi > div {
+    row-gap: 10px;
+    padding: 18px;
+    min-height: 251px;
+    border-radius: 1.3em;
+    -webkit-border-radius: 1.3em;
+    -moz-border-radius: 1.3em;
+    -ms-border-radius: 1.3em;
+    -o-border-radius: 1.3em;
+  }
+
+  .merchandise-konveksi {
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+
+  .merchandise-konveksi > div {
+    row-gap: 10px;
+    padding: 15px;
+    min-height: 204px;
+    border-radius: 1.3em;
+    -webkit-border-radius: 1.3em;
+    -moz-border-radius: 1.3em;
+    -ms-border-radius: 1.3em;
+    -o-border-radius: 1.3em;
+  }
+
+  .konveksi-tumbler {
+    row-gap: 10px;
+    padding: 15px;
+    margin: 20px 0;
+    max-width: 540px;
+    min-height: 204px;
+    border-radius: 1em;
+    -webkit-border-radius: 1.3em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+  }
+}
+
+@media screen and (min-width: 1270px) {
+
+
+  .konveksi-h1 {
+    padding-top: 20px;
+  }
+  .store-Konveksi img {
+    width: 500px;
+  }
+
+  .pakaian-konveksi {
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+
+  .pakaian-konveksi > div {
+    row-gap: 20px;
+
+    padding: 20px;
+    min-height: 302px;
+    border-radius: 1.5em;
+    -webkit-border-radius: 1.5em;
+    -moz-border-radius: 1.5em;
+    -ms-border-radius: 1.5em;
+    -o-border-radius: 1.5em;
+  }
+
+  .merchandise-konveksi {
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+
+  .merchandise-konveksi > div {
+    row-gap: 20px;
+
+    padding: 20px;
+    min-height: 251px;
+    border-radius: 1.5em;
+    -webkit-border-radius: 1.5em;
+    -moz-border-radius: 1.5em;
+    -ms-border-radius: 1.5em;
+    -o-border-radius: 1.5em;
+  }
+
+  .konveksi-tumbler {
+    row-gap: 20px;
+    padding: 20px;
+    margin: 20px 0;
+    max-width: 540px;
+    min-height: 251px;
+
+    border-radius: 1.5em;
+  }
+}

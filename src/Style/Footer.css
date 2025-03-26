@@ -1,0 +1,410 @@
+@font-face {
+  font-family: Poppins;
+  src: url("Fonts/Poppins/Poppins-SemiBold.ttf");
+}
+
+* {
+  font-family: Poppins;
+}
+
+#divterluar {
+  background-color: #f5f6f7f8;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.footer {
+  padding: 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 16px 80px 16px 120px;
+  background-color: #ffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  column-gap: 150px;
+  background-image: url(Image/Batik\ Putih.jpg);
+  background-attachment: local;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer-tambahan {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  color: #b94c6f;
+  margin: 0;
+  padding-top: 10px;
+}
+.footer-kiri {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(1, 3fr);
+}
+
+.footer-kiri1 {
+  color: #b94c6f;
+  font-family: Poppins;
+  font-size: 27.969px;
+  font-weight: 900;
+  line-height: normal;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.footer-kiri3 {
+  color: #b94c6f;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+  font-style: normal;
+  text-decoration: none;
+}
+.footer-kiri2 {
+  color: #ed5565;
+  font-family: Poppins;
+  font-size: 17.183px;
+  font-style: none;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.footer-tambahan2 {
+  padding-left: 1;
+}
+
+.footer-tambahan2 h3 {
+  color: #b94c6f;
+  margin: 4px 0 4px 0;
+}
+
+.footer-tambahan2 a {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  text-decoration: none;
+  color: #b94c6f;
+}
+
+.footer-p {
+  margin: 0;
+  text-decoration: none;
+  padding-left: 7px;
+}
+.footer-img {
+  margin: 0;
+}
+
+@media screen and (max-width: 769px) {
+  .footer {
+    width: 100%;
+  }
+  .footer-logo {
+    width: 30px;
+    height: 30px;
+  }
+  .footer-container {
+    column-gap: 10px;
+    width: 100%;
+    padding: 0;
+  }
+
+  .footer-tambahan {
+    padding: 10px 0 0 25px;
+  }
+  .footer-kiri {
+    padding: 3px;
+    padding-left: 9px;
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+  }
+
+  .footer-kiri1 {
+    font-size: 14px;
+  }
+
+  .footer-kiri3 {
+    font-size: 11px;
+  }
+  .footer-kiri2 {
+    font-size: 11px;
+  }
+
+  .footer-tambahan2 {
+    padding: 10px 25px 10px 0;
+    margin-top: 2px;
+  }
+
+  .footer-tambahan2 h3 {
+    color: #b94c6f;
+    margin: 4px 0 4px 0;
+    font-size: 15px;
+  }
+
+  .footer-tambahan2 a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .footer-p {
+    padding-left: 7px;
+    font-size: 10px;
+  }
+  .footer-img {
+    height: 10px;
+    width: 10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+ 
+  .footer-logo {
+    width: 20px;
+    height: 20px;
+  }
+  .footer-container {
+    padding: 0;
+    column-gap: 20px;
+    width: 100%;
+  }
+
+  .footer-tambahan {
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+  .footer-kiri {
+    padding: 3px;
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+  }
+
+  .footer-kiri1 {
+    font-size: 7.5px;
+  }
+
+  .footer-kiri3 {
+    font-size: 6px;
+  }
+  .footer-kiri2 {
+    font-size: 6px;
+  }
+
+  .footer-tambahan2 {
+    padding: 10px 20px 10px 0;
+    margin-top: 2px;
+  }
+
+  .footer-tambahan2 h3 {
+    color: #b94c6f;
+    margin: 4px 0 4px 0;
+    font-size: 9px;
+  }
+
+  .footer-tambahan2 a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .footer-p {
+    padding-left: 7px;
+    font-size: 6px;
+  }
+  .footer-img {
+    height: 7px;
+    width: 7px;
+  }
+}
+
+@media (min-width: 769px) {
+  .footer-logo {
+    width: 30px;
+    height: 30px;
+  }
+  .footer-container {
+    padding: 12px 48px 12px 48px;
+    column-gap: 20px;
+    width: 100%;
+  }
+
+  .footer-tambahan {
+    padding-left: 2px;
+    padding-top: 10px;
+  }
+  .footer-kiri {
+    padding-left: 9px;
+    padding: 3px;
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+  }
+
+  .footer-kiri1 {
+    font-size: 14px;
+  }
+
+  .footer-kiri3 {
+    font-size: 12px;
+  }
+  .footer-kiri2 {
+    font-size: 12px;
+  }
+
+  .footer-tambahan2 {
+    padding-left: 1px;
+    margin-top: 2px;
+  }
+
+  .footer-tambahan2 h3 {
+    color: #b94c6f;
+    margin: 4px 0 4px 0;
+    font-size: 14px;
+  }
+
+  .footer-tambahan2 a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .footer-p {
+    padding-left: 7px;
+    font-size: 11px;
+  }
+  .footer-img {
+    height: 11px;
+    width: 11px;
+  }
+}
+
+@media (min-width: 920px) {
+  .footer-logo {
+    width: 30px;
+    height: 30px;
+  }
+  .footer-container {
+    padding: 12px 48px 12px 48px;
+    column-gap: 20px;
+    width: 100%;
+  }
+
+  .footer-tambahan {
+    padding-left: 2px;
+    padding-top: 10px;
+  }
+  .footer-kiri {
+    padding-left: 9px;
+    padding: 3px;
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+  }
+
+  .footer-kiri1 {
+    font-size: 17px;
+  }
+
+  .footer-kiri3 {
+    font-size: 15px;
+  }
+  .footer-kiri2 {
+    font-size: 15px;
+  }
+
+  .footer-tambahan2 {
+    padding-left: 1px;
+    margin-top: 2px;
+  }
+
+  .footer-tambahan2 h3 {
+    color: #b94c6f;
+    margin: 4px 0 4px 0;
+    font-size: 18px;
+  }
+
+  .footer-tambahan2 a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .footer-p {
+    padding-left: 7px;
+    font-size: 13px;
+  }
+  .footer-img {
+    height: 13px;
+    width: 13px;
+  }
+}
+
+@media (min-width: 1270px) {
+  .footer-logo {
+    width: 72px;
+    height: 72px;
+  }
+  .footer-container {
+    padding: 16px 80px 16px 100px;
+    column-gap: 100px;
+    width: 100%;
+  }
+
+  .footer-tambahan {
+    padding-left: 2px;
+    padding-top: 10px;
+  }
+  .footer-kiri {
+    padding-left: 9px;
+    padding: 3px;
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+  }
+
+  .footer-kiri1 {
+    font-size: 27px;
+  }
+
+  .footer-kiri3 {
+    font-size: 21px;
+  }
+  .footer-kiri2 {
+    font-size: 17px;
+  }
+
+  .footer-tambahan2 {
+    padding-left: 1px;
+    margin-top: 2px;
+  }
+
+  .footer-tambahan2 h3 {
+    color: #b94c6f;
+    margin: 4px 0 4px 0;
+    font-size: 21px;
+  }
+
+  .footer-tambahan2 a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .footer-p {
+    padding-left: 7px;
+    font-size: 15px;
+  }
+  .footer-img {
+    height: 24px;
+    width: 24px;
+  }
+}

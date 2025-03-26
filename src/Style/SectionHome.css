@@ -1,0 +1,563 @@
+@font-face {
+  font-family: Poppins;
+  src: url("Fonts/Poppins/Poppins-Regular.ttf");
+}
+
+* {
+  font-family: Poppins;
+}
+
+.section-home {
+  background-image: url(Image/BackgroundHome.jpg);
+  background-size: cover;
+  background-attachment: local;
+}
+.imagesun {
+  width: 784px;
+  margin-top: 65px;
+}
+
+.divangkasakan {
+  background-image: url(Image/Group\ 10.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 1200px;
+  display: flex;
+  justify-content: center;
+  filter: drop-shadow(0px 5px 21.6px rgba(0, 0, 0, 0.25));
+}
+
+.AbroadDipi {
+  display: flex;
+  justify-content: center;
+  background-image: url(Image/Background\ Dipi.jpg);
+  filter: drop-shadow(0px 5px 21.6px rgba(0, 0, 0, 0.25));
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+}
+
+.batikMerah {
+  width: 2000px;
+  height: 500px;
+}
+
+.AbroadDipi img {
+  width: 700px;
+  height: 400px;
+}
+
+.divA-selayang {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(Image/BatikCream.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  padding: 0 70px 30px 70px;
+  filter: drop-shadow(0px 5px 21.6px rgba(0, 0, 0, 0.25));
+}
+
+.line {
+  background: #fff;
+  height: 390px;
+  width: 0.7vh;
+  margin: 0 20px;
+}
+
+.divA-selayang h1 {
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+  font-size: 40px;
+  font-family: montserrat;
+  letter-spacing: 5px;
+  font-weight: 900;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.divB-selayang {
+  display: flex;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+}
+
+.divB-selayang-div {
+  width: 50%;
+}
+
+.h3-selayang {
+  color: #fff;
+  text-align: center;
+  font-size: 29.063px;
+  font-weight: 700;
+  line-height: normal;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.p-selayang {
+  color: #fff;
+  font-size: 23.935px;
+  font-weight: 300;
+  line-height: normal;
+  text-align: justify;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.divVektor {
+  margin: 0 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.divVektor div {
+  padding: 70px 80px;
+}
+
+.h3-vektor {
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+  font-size: 40px;
+  font-family: montserrat;
+  letter-spacing: 5px;
+  font-weight: 900;
+  margin: 0;
+  text-transform: uppercase;
+  padding: 20px 0;
+}
+
+.p-vektor {
+  color: #fff;
+  font-size: 23.935px;
+  font-weight: 300;
+  line-height: normal;
+  text-align: justify;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.div-visimisi {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+  margin: 0 20px 20px 20px;
+}
+
+.div-visi {
+  margin: 0 20px;
+}
+
+
+@media screen and (max-width: 769px) {
+  .imagesun {
+    width: 522.6px;
+    height: 294px;
+    margin-top: 10px;
+  }
+
+  .divangkasakan {
+    height: 450px;
+    display: flex;
+  }
+
+  .AbroadDipi img {
+    width: 233.34px;
+    height: 133.34px;
+  }
+
+  .divA-selayang {
+    padding: 20px;
+  }
+
+  .line {
+    background: #fff;
+    height: 220px;
+    width: 0.1vh;
+    margin: 0 5px;
+    padding-top: 20px;
+  }
+
+  .divA-selayang h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+  }
+
+  .divB-selayang {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+  }
+
+  .divB-selayang-div {
+    width: 50%;
+  }
+
+  .h3-selayang {
+    font-size: 15px;
+    margin-top: 2px;
+  }
+
+  .p-selayang {
+    color: #fff;
+    font-size: 14px;
+  }
+
+  .divVektor {
+    margin: 0px 40px;
+  }
+  .divVektor div {
+    padding: 10px 12px;
+  }
+
+  .h3-vektor {
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 10px 0;
+  }
+
+  .p-vektor {
+    font-size: 14px;
+  }
+
+  .logoDigmapi {
+    height: 120px;
+    width: 120px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .imagesun {
+    width: 313.6px;
+    height: 176.4px;
+    margin-top: 10px;
+  }
+
+  .divangkasakan {
+    background-image: url(Image/Group\ 10.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(0px 5px 21.6px rgba(0, 0, 0, 0.25));
+  }
+
+  .AbroadDipi img {
+    width: 175px;
+    height: 100px;
+  }
+
+  .divA-selayang {
+    background-size: cover;
+    background-attachment: local;
+    background-image: url(Image/BatikCream.jpg);
+    padding: 10px;
+  }
+
+  .line {
+    background: #fff;
+    height: 180px;
+    width: 0.1vh;
+    margin: 0 5px;
+    padding-top: 20px;
+  }
+
+  .divA-selayang h1 {
+    font-size: 14px;
+  }
+
+  .divB-selayang {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+  }
+
+  .divB-selayang-div {
+    width: 50%;
+  }
+
+  .h3-selayang {
+    font-size: 10px;
+    margin-top: 2px;
+  }
+
+  .p-selayang {
+    color: #fff;
+    font-size: 8px;
+  }
+
+  .divVektor {
+    margin: 0 20px;
+  }
+  .divVektor div {
+    padding: 10px 13px;
+  }
+
+  .h3-vektor {
+    font-size: 10px;
+  }
+
+  .p-vektor {
+    font-size: 8px;
+  }
+
+  .logoDigmapi {
+    height: 80px;
+    width: 80px;
+  }
+}
+
+@media (min-width: 769px) {
+  .imagesun {
+    width: 603px;
+    height: 339.2px;
+    margin-top: 35px;
+  }
+
+  .divangkasakan {
+    height: 500px;
+  }
+
+  .AbroadDipi img {
+    width: 291.67px;
+    height: 166.67px;
+  }
+
+  .divA-selayang {
+    padding: 30px;
+  }
+
+  .line {
+    background: #fff;
+    height: 220px;
+    width: 0.3vh;
+    margin: 0 8px;
+    padding-top: 20px;
+  }
+
+  .divA-selayang h1 {
+    font-size: 24px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+  }
+
+  .divB-selayang {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+  }
+
+  .divB-selayang-div {
+    width: 50%;
+  }
+
+  .h3-selayang {
+    font-size: 20px;
+    margin-top: 2px;
+  }
+
+  .p-selayang {
+    color: #fff;
+    font-size: 13px;
+  }
+
+  .divVektor {
+    margin: 20px 80px 0 80px;
+  }
+  .divVektor div {
+    padding: 10px 12px;
+  }
+
+  .h3-vektor {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+
+  .p-vektor {
+    font-size: 15px;
+  }
+
+  .logoDigmapi {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+@media (min-width: 920px) {
+  .imagesun {
+    width: 712.7px;
+    height: 400.9px;
+    margin-top: 45px;
+  }
+
+  .divangkasakan {
+    height: 700px;
+  }
+
+  .AbroadDipi img {
+    width: 466.67px;
+    height: 266.67px;
+  }
+
+  .divA-selayang {
+    padding: 50px;
+  }
+
+  .line {
+    background: #fff;
+    height: 320px;
+    width: 0.3vh;
+    margin: 0 8px;
+    padding-top: 20px;
+  }
+
+  .divA-selayang h1 {
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+
+  .divB-selayang {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+  }
+
+  .divB-selayang-div {
+    width: 50%;
+  }
+
+  .h3-selayang {
+    font-size: 24px;
+    margin-top: 2px;
+  }
+
+  .p-selayang {
+    color: #fff;
+    font-size: 18px;
+  }
+
+  .divVektor {
+    margin: 40px 80px 0 80px;
+  }
+  .divVektor div {
+    padding: 10px 12px;
+  }
+
+  .h3-vektor {
+    font-size: 30px;
+  }
+
+  .p-vektor {
+    font-size: 18px;
+  }
+
+  .logoDigmapi {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media (min-width: 1270px) {
+  .imagesun {
+    width: 800px;
+    height: 445px;
+    margin-top: 65px;
+  }
+
+  .divangkasakan {
+    background-image: url(Image/Group\ 10.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(0px 5px 21.6px rgba(0, 0, 0, 0.25));
+  }
+
+  .AbroadDipi {
+    display: flex;
+    justify-content: center;
+    background-image: url(Image/Background\ Dipi.jpg);
+    filter: drop-shadow(0px 5px 21.6px rgba(0, 0, 0, 0.25));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: local;
+  }
+
+  .batikMerah {
+    width: 2000px;
+    height: 500px;
+  }
+
+  .AbroadDipi img {
+    width: 700px;
+    height: 400px;
+  }
+
+  .divA-selayang {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(Image/BatikCream.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    padding: 0 70px 30px 70px;
+    filter: drop-shadow(0px 5px 21.6px rgba(0, 0, 0, 0.25));
+  }
+
+  .line {
+    height: 390px;
+  }
+
+  .divA-selayang h1 {
+    font-size: 50px;
+    margin: 10px 0;
+  }
+
+  .divB-selayang {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+  }
+
+  .divB-selayang-div {
+    width: 50%;
+  }
+
+  .h3-selayang {
+    font-size: 29.063px;
+  }
+
+  .p-selayang {
+    font-size: 23.935px;
+  }
+
+  .divVektor {
+    margin: 0 150px;
+  }
+  .divVektor div {
+    padding: 50px 20px;
+  }
+
+  .h3-vektor {
+    font-size: 35px;
+  }
+
+  .p-vektor {
+    font-size: 23.935px;
+  }
+
+  .logoDigmapi {
+    height: 300px;
+    width: 300px;
+  }
+}

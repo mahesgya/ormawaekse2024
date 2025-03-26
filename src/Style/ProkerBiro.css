@@ -1,0 +1,266 @@
+@font-face {
+  font-family: Poppins;
+  src: url("Fonts/Poppins/Poppins-Regular.ttf");
+}
+
+* {
+  font-family: Poppins;
+}
+
+#ProkerBiro {
+  background-image: url(Image/BackgroundHome.jpg);
+  background-size: cover;
+  background-attachment: local;
+  padding-bottom: 20px;
+}
+.div-proh2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div-proh2 h2 {
+  color: #B43064;
+  text-align: center;
+  text-shadow: 1.5px 1.5px 3px rgba(0, 0, 0, 0.25);
+  font-size: 45px;
+  font-family: montserrat;
+  letter-spacing: 7px;
+  font-weight: 900;
+  margin: 0;
+  padding: 10px 20px;
+  background-color: #ffff;
+}
+
+.BiroProker {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.BiroProker div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.fotoProker {
+  width: 700px;
+  margin: 20px;
+  margin-bottom: 0;
+}
+
+.buttonProker {
+  color: #f8f6f5;
+  font-family: Poppins;
+  font-size: 12px;
+  padding: 5px 10px;
+  font-weight: 700;
+  border-style: none;
+  border-radius: 1rem;
+  text-shadow: 1px 1px 1px #000;
+  background: linear-gradient(90deg, #fc9760 0%, #ea5d51 59.5%, #dd3547 100%);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  cursor: pointer;
+}
+
+.prokerComingSoon {
+  padding-bottom: 25px;
+}
+
+@media screen and (max-width: 769px) {
+  #ProkerBiro {
+    padding-bottom: 10px;
+  }
+
+  #ProkerBiro h2 {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 5px 20px;
+    margin: 10px 0;
+  }
+
+  .BiroProker {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .fotoProker {
+    width: 250px;
+    margin: 10px;
+    margin-bottom: 0;
+  }
+
+  .buttonProker {
+    font-size: 8px;
+    padding: 4px 8px;
+    font-weight: 700;
+    border-radius: 0.7rem;
+    text-shadow: 0.5px 0.5px 0.5px #000;
+    -webkit-border-radius: 0.7rem;
+    -moz-border-radius: 0.7rem;
+    -ms-border-radius: 0.7rem;
+    -o-border-radius: 0.7rem;
+  }
+
+  .prokerComingSoon {
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #ProkerBiro {
+    padding-bottom: 10px;
+  }
+
+  #ProkerBiro h2 {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 5px 20px;
+    margin: 10px 0;
+  }
+
+  .BiroProker {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .fotoProker {
+    width: 300px;
+    margin: 10px;
+    margin-bottom: 0;
+  }
+
+  .buttonProker {
+    font-size: 8px;
+    padding: 4px 8px;
+    font-weight: 700;
+    border-radius: 0.7rem;
+    text-shadow: 0.5px 0.5px 0.5px #000;
+    -webkit-border-radius: 0.7rem;
+    -moz-border-radius: 0.7rem;
+    -ms-border-radius: 0.7rem;
+    -o-border-radius: 0.7rem;
+  }
+
+  .prokerComingSoon {
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  #ProkerBiro {
+    padding-bottom: 10px;
+  }
+
+  #ProkerBiro h2 {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 5px 20px;
+    margin: 10px 0;
+  }
+
+  .BiroProker {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .fotoProker {
+    width: 335px;
+    margin: 10px;
+    margin-bottom: 0;
+  }
+
+  .buttonProker {
+    font-size: 8px;
+    padding: 4px 8px;
+    font-weight: 700;
+    border-radius: 0.7rem;
+    text-shadow: 0.5px 0.5px 0.5px #000;
+    -webkit-border-radius: 0.7rem;
+    -moz-border-radius: 0.7rem;
+    -ms-border-radius: 0.7rem;
+    -o-border-radius: 0.7rem;
+  }
+
+  .prokerComingSoon {
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 920px) {
+  #ProkerBiro {
+    padding-bottom: 10px;
+  }
+
+  #ProkerBiro h2 {
+    font-size: 25px;
+    padding: 5px 20px;
+    margin: 10px 0;
+  }
+
+  .fotoProker {
+    width: 420px;
+    margin: 10px;
+    margin-bottom: 0;
+  }
+
+  .buttonProker {
+    font-size: 10px;
+    padding: 5px 10px;
+    font-weight: 700;
+    border-radius: 1rem;
+    text-shadow: 0.5px 0.5px 0.5px #000;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+  .prokerComingSoon {
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 1270px) {
+  #ProkerBiro {
+    padding-bottom: 10px;
+  }
+
+  #ProkerBiro h2 {
+    font-size: 30px;
+    padding: 5px 20px;
+    margin: 10px 0;
+  }
+
+  .fotoProker {
+    width: 580px;
+    margin: 10px;
+    margin-bottom: 0;
+  }
+
+  .buttonProker {
+    font-size: 13px;
+    padding: 5px 12px;
+    font-weight: 700;
+    border-radius: 1rem;
+    text-shadow: 1px 1px 1px #000;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    margin-bottom: 8px;
+}
+
+  .prokerComingSoon {
+    padding-bottom: 25px;
+  }
+}
